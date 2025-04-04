@@ -22,7 +22,7 @@ Much like datasets that power machine learning, our participants are integral to
 
 For inspiration, I turned to one of the workhorses of classical machine learning: linear regression. When fitting a line to a set of data, the model calculates the error of each point relative to the predicted hyperplane (typically using the [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) as a measure of average error). With each randomly generated hyperplane, one training data point will always have the lowest error (bias). So, I decided that the participant closest to a hyperplane would be the winner!
 
-![line of best fit](/src/brain_raffle_company_biologists/conference_100/pictures/pic4.jpeg)
+![line of best fit](/src/brain_raffle_company_biologists/conference_100/pictures/pic4.png)
 
 With that idea, all that needed coding was a random produced hyperplane that would bisect the 3D space, followed by a calculation of each participant’s distance to the plane. Each participant’s data point information was stored in a dictionary alongside their contact details. Here’s what it looks like in its final form!
 
