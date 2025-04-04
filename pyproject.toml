@@ -1,0 +1,26 @@
+[project]
+name = "brain-raffle-company-biologists"
+version = "0.1.0"
+description = "Add your description here"
+dependencies = [
+    "plotly>=6.0.1",
+    "numpy>=2.2.4",
+    "jupyter>=1.1.1",
+    "pandas>=2.2.3",
+]
+readme = "README.md"
+requires-python = ">= 3.13"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/brain_raffle_company_biologists"]
