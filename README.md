@@ -2,7 +2,7 @@ Find here the code for the brain based raffle for [L2D](https://learntodiscover.
 
 The code runs in a jupyter notebook making use of a .obj file that contains the structure to make a mesh of a brain in plotly. The file is included in the repo but it can also be found through this [blog](https://neurosnippets.com/posts/interactive-network/).
 
-A write up of the raffle can be found here[TO FILL] or it has been copied out below for reading with this repo.
+A write up of the raffle can be found [here](https://learntodiscover.ai/blog/) or it has been copied out below for reading with this repo.
 
 # Brains and Planes: Picking a winner at The Company of Biologists @ 100 Conference
 
